@@ -1,0 +1,9 @@
+{
+  "input": {
+    "prompt": "Create an elegant hand-drawn editorial cover image for a Chinese AI daily article. Canvas: 3:2 landscape article cover, high resolution. Cover theme: AI reasoning breakthrough. Style: modern clean tech, refined hand-drawn ink illustration, sophisticated newsletter cover, not corporate stock art. Title text: AI早读. Subtitle text: 0522 · 推理突破. Visual composition: Main visual: a large hand-drawn mathematical graph / Erdős problem diagram spanning center and right side, showing unit-distance node arrangement with connections. A reasoning chain flows from nodes into a glowing 'proof' checkpoint. Small notebook sketch annotations around the math diagram. Layout: title text large and readable in the upper-left, subtitle smaller below it; illustration occupies remainder of canvas with generous negative space. Decorative elements: small pencil-sketch annotations, node dots, dashed arrows, data-flow traces, a few small hexagonal data tiles, geometric shapes. Color scheme: Background: warm off-white paper (#F7F3EA). Primary ink: deep charcoal / navy-black. Accent: restrained cyan blue used for checkmarks and active data paths. Signal red used very sparingly for warning/error markers. Secondary: muted graphite and pale steel blue for grid lines and shadow lines. Style notes: Premium Chinese tech newsletter cover. Hand-drawn but precise, like a research notebook meets systems architecture sketch. Keep the image uncluttered and readable at thumbnail size. Make all visible text crisp, legible, and exactly as specified: AI早读 and 0522 · 推理突破. No logos, no photorealistic people, no generic robot face, no dark gradient background, no glowing neon effects.",
+    "aspect_ratio": "3:2",
+    "cfg_scale": 7,
+    "output_format": "jpeg",
+    "output_quality": 90
+  }
+}
