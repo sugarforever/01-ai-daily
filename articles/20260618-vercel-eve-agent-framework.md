@@ -7,7 +7,7 @@ tags: [Vercel, eve, Agent 框架, AI Agent, Vercel Connect, Agent Stack]
 
 6 月 17 日，Vercel 在伦敦 Ship 2026 上发布了一系列重要更新，其中最引人注目的是 `eve` - 一个开源的 Agent 框架。同时亮相的还有 `Vercel Connect`（运行时凭证交换服务）和完整的 `Agent Stack`（AI SDK + AI Gateway + Workflow SDK + Vercel Sandbox + Chat SDK + Vercel Connect）。
 
-这篇不是新闻综述。我会用代码逐层拆解 `eve` 怎么用、`Vercel Connect` 怎么集成、整套 Agent Stack 怎么落地，最后部署一个真实的 Agent 到生产环境。期望对大家有所帮助。
+我会用代码逐层拆解 `eve` 怎么用、`Vercel Connect` 怎么集成、整套 Agent Stack 怎么落地，最后部署一个真实的 Agent 到生产环境。
 
 ## Vercel 为什么做 Agent 框架
 
