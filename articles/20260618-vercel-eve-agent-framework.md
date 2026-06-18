@@ -99,7 +99,7 @@ export default defineTool({
 });
 ```
 
-这就跑起来了。`eve dev` 启动 TUI，你在终端里和 Agent 对话，每步推理、每次工具调用都实时展示，并且每步都是 checkpointed 的——会话崩溃后可以原地恢复。
+这就跑起来了。`eve dev` 启动 TUI，你在终端里和 Agent 对话，每步推理、每次工具调用都实时展示，并且每步都是 checkpointed 的 - 会话崩溃后可以原地恢复。
 
 ### 增加审批控制
 
@@ -119,7 +119,7 @@ export default defineTool({
 });
 ```
 
-`needsApproval` 可以是布尔值，也可以是接收 toolInput 的函数——这样就能根据上下文动态决定是否需要审批。Agent 会在需要审批的地方暂停，等人确认后才继续。
+`needsApproval` 可以是布尔值，也可以是接收 toolInput 的函数 - 这样就能根据上下文动态决定是否需要审批。Agent 会在需要审批的地方暂停，等人确认后才继续。
 
 ### Shadbox：让 Agent 自己写代码
 
@@ -189,7 +189,7 @@ export default defineEval({
 
 ## Vercel Connect：没有 token 的 Agent 集成
 
-Agent 不接入外部系统就没有价值。但传统的做法是把 token 写在环境变量里——全局、永久、不区分用户。
+Agent 不接入外部系统就没有价值。但传统的做法是把 token 写在环境变量里 - 全局、永久、不区分用户。
 
 `Vercel Connect` 解决这个问题的方式是把「凭证存储」变成「凭证请求」。
 
@@ -241,7 +241,7 @@ export default slackRoute({
 
 ### 精确作用域
 
-不只是替代 token——Connect 允许更细粒度的权限控制：
+不只是替代 token - Connect 允许更细粒度的权限控制：
 
 ```typescript
 const token = await getToken("github/mybot", {
@@ -281,7 +281,7 @@ Agent 可以以特定用户的身份操作，scope 受限于该用户的授权�
 | 凭证管理 | Vercel Connect | 运行时凭证交换，无存储的 token |
 | 多渠道交付 | Chat SDK | 一次接入，分发到所有平台 |
 
-`eve` 把所有这些预制件组装成一个目录结构。但你也可以单独使用每一层——比如只用 AI Gateway 做模型路由，或者只用 Workflow SDK 做后台 Job。
+`eve` 把所有这些预制件组装成一个目录结构。但你也可以单独使用每一层 - 比如只用 AI Gateway 做模型路由，或者只用 Workflow SDK 做后台 Job。
 
 ### AI SDK 示例
 
@@ -309,14 +309,14 @@ const result = await sandbox.runCommand("python", ["agent.py"]);
 
 我们从头搭建一个能查 GitHub Issue 并可以在 Slack 里对话的 Agent。
 
-### 1. 初始化项目
+### 初始化项目
 
 ```bash
 npx eve@latest init support-agent
 cd support-agent
 ```
 
-### 2. 配置 Agent
+### 配置 Agent
 
 ```typescript
 // agent/agent.ts
@@ -339,7 +339,7 @@ export default defineAgent({
 - 如果用户要求创建 Issue，先确认标题和描述后再操作。
 ```
 
-### 3. 添加 GitHub 工具
+### 添加 GitHub 工具
 
 ```typescript
 // agent/tools/list_issues.ts
@@ -401,7 +401,7 @@ export default defineTool({
 });
 ```
 
-### 4. 连接 Slack 渠道
+### 连接 Slack 渠道
 
 ```typescript
 // agent/channels/slack.ts
@@ -413,7 +413,7 @@ export default slackRoute({
 });
 ```
 
-### 5. 添加排期（每日汇总）
+### 添加排期（每日汇总）
 
 ```typescript
 // agent/schedules/daily-summary.ts
@@ -430,7 +430,7 @@ export default defineSchedule({
 });
 ```
 
-### 6. 部署
+### 部署
 
 ```bash
 vercel deploy
