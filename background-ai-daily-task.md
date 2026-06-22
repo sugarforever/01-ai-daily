@@ -67,10 +67,22 @@ Footer at the end: a horizontal rule, then a line in italics:
 
 No other footer or content should expose the underlying API worker URL.
 
-## Step 7: Git Push
+## Step 7: Write WeChat Version
+Generate a WeChat Official Account (微信公众号) version of the same article. Save to `/home/ubuntu/.openclaw/workspace/01-ai-daily/wechat-YYYY-MM-DD.md`
+
+Differences from the markdown version:
+- **No markdown links** — WeChat does not support external hyperlinks. Write URLs as plain text on their own line, e.g.:
+  ```
+  原文链接：https://example.com/article
+  ```
+- **No frontmatter** — WeChat won't use YAML frontmatter. Title goes as an H1 (`# `) at the top.
+- **Cover image** — Include as a blockquote line with the relative path: `> 封面图：images/ai-daily-YYYY-MM-DD.jpg`
+- Content is otherwise the same text (same sections, same voice, same punctuation rules from Step 5).
+
+## Step 8: Git Push
 ```
 cd /home/ubuntu/.openclaw/workspace/01-ai-daily
 git add --all
-git commit -m "ai daily YYYY-MM-DD"
+git commit -m "ai daily + wechat YYYY-MM-DD"
 git push
 ```
