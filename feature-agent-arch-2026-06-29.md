@@ -7,7 +7,13 @@
 
 AI Engineer World's Fair 2026 今天在旧金山拉开帷幕。566 场 session、160+ 场与 Agent 相关的议题——这个行业已经从「要不要做 Agent」彻底转向了「怎么做可靠的 Agent 架构」。
 
+![AI Engineer World's Fair 2026 大会日程页：6/29–7/2 在旧金山 Moscone West，共 566 场 session](images/agent-arch-2026-06-29/schedule-overview.png)
+
 今年的共识非常明确：**模型在变强，瓶颈在架构**。五场最具代表性的 Agent 架构 talk，分别从五个维度探讨了这个话题。
+
+一个最直观的信号：在日程页里搜「harness」，566 场里有 30 场命中——「Harness Engineering」甚至单独成了一个 track。本文挑的几场，基本都落在这条主线上。
+
+![在大会日程页搜索 “harness”：566 场里 30 场命中，Harness Engineering 自成一个 track](images/agent-arch-2026-06-29/harness-sessions.png)
 
 ---
 
@@ -15,7 +21,9 @@ AI Engineer World's Fair 2026 今天在旧金山拉开帷幕。566 场 session�
 
 **Talk:** *Your agent architecture has a half-life of 6 months*
 **演讲者:** Dan Farrelly（Inngest 联合创始人 & CTO）
-**Track:** Day 3
+**Track:** Day 3（7/1）12:05pm · Expo Stage 1 NE
+
+![大会日程中的 Session 详情：Your agent architecture has a half-life of 6 months — Dan Farrelly](images/agent-arch-2026-06-29/talk1-halflife.png)
 
 Dan Farrelly 上来就抛出了一个让人不安的事实：过去两年，"正确的 Agent 架构" 经历了 RAG → ReAct → prompt chaining → orchestrator-workers → MCP → CLI → MCP again... 每一次行业风向转换，团队就要重写一次架构。
 
@@ -38,7 +46,9 @@ Dan Farrelly 上来就抛出了一个让人不安的事实：过去两年，"正
 
 **Talk:** *Your Agent Didn't Fail. Your Harness Did.*
 **演讲者:** Vinoth Govindarajan（OpenAI, Member of Technical Staff）
-**Track:** Claws & Personal Agents
+**Track:** Claws & Personal Agents · Day 2（6/30）11:10am
+
+![大会日程中的 Session 详情：Your Agent Didn't Fail. Your Harness Did. — Vinoth Govindarajan（OpenAI）](images/agent-arch-2026-06-29/talk2-harness.png)
 
 这可能是今年最重要的一场 Agent 架构 talk。Vinoth 直接挑战了行业默认假设：Agent 产出不对时，大家第一反应是模型问题，但大量生产故障其实发生在模型周围的 harness（鞍具/护栏系统）里。
 
@@ -69,8 +79,10 @@ Vinoth 用 OpenClaw 作为公开案例研究，提炼出了一个可复用的生
 ## 长期研究型 Agent 的记忆架构实战
 
 **Talk:** *Memory Harnesses for Long-Running Research Agents*
-**演讲者:** Stefania Druga（Sakana AI）
-**Track:** Memory & Continual Learning
+**演讲者:** Stefania Druga（Research Scientist, Sakana AI）
+**Track:** Day 3（7/1）11:40am · Main Stage
+
+![大会日程中的 Session 详情：Memory Harnesses for Long-Running Research Agents — Stefania Druga（Sakana AI）](images/agent-arch-2026-06-29/talk3-memory.png)
 
 Sakana AI 的 Agent 需要跑几百个回合——阅读文献、运行实验、起草论文。Stefania 分享了一个反直觉的发现：**在这些长期任务中，模型很少出问题，出问题的一直是 harness。**
 
@@ -100,7 +112,9 @@ Sakana AI 在实践中总结出的记忆架构模式包括：
 
 **Talk:** *6 Pillars of an Agentic Harness That Fixes Production Incidents*
 **演讲者:** Varun Krovvidi（Resolve AI）
-**Track:** Day 2
+**Track:** Day 2（6/30）2:50pm · Expo Stage 1 NE
+
+![大会日程中的 Session 详情：6 Pillars of an Agentic Harness That Fixes Production Incidents — Varun Krovvidi（Resolve AI）](images/agent-arch-2026-06-29/talk4-pillars.png)
 
 当一个生产事故在 P0 级别燃烧时，模型可以给出无数个"听起来合理"的回答，但只有一个正确答案。模型自己无法可靠地找到它。Varun 把这套工程挑战定义为 harness engineering 的新前沿。
 
@@ -131,8 +145,10 @@ Agent 读权限只是第一步。真正的生产力来自写权限：执行命�
 ## 五、知识的三条路径：Prompt、Memory、Weights
 
 **Talk:** *Prompt, Memory, Weights: The Architecture Decisions Most AI Teams Make by Accident*
-**演讲者:** Anant Srivastava
-**Track:** Context Engineering
+**演讲者:** Anant Srivastava（Oracle）
+**Track:** Day 3（7/1）12:05pm · Expo Stage 4 SE
+
+![大会日程中的 Session 详情：Prompt, Memory, Weights — Anant Srivastava（Oracle）](images/agent-arch-2026-06-29/talk5-pmw.png)
 
 绝大多数 AI 团队在做架构决策时都带着一个默认假设：prompt → RAG → fine-tuning 是一条进阶梯子。先用 prompt 做约束，不行就上 RAG，再不行就微调——仿佛每一步是上一步的「高级版本」。
 
