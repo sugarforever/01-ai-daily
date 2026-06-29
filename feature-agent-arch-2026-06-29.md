@@ -7,11 +7,11 @@
 
 AI Engineer World's Fair 2026 今天在旧金山拉开帷幕。566 场 session、160+ 场与 Agent 相关的议题——这个行业已经从「要不要做 Agent」彻底转向了「怎么做可靠的 Agent 架构」。
 
-今年的共识非常明确：**模型在变强，瓶颈在架构**。五场最具代表性的 Agent 架构 talk，分别从五个维度切开了这个命题。
+今年的共识非常明确：**模型在变强，瓶颈在架构**。五场最具代表性的 Agent 架构 talk，分别从五个维度探讨了这个话题。
 
 ---
 
-## 一、架构的保质期只有 6 个月，那还建什么？
+## 架构的保质期只有 6 个月，那还建什么？
 
 **Talk:** *Your agent architecture has a half-life of 6 months*
 **演讲者:** Dan Farrelly（Inngest 联合创始人 & CTO）
@@ -34,7 +34,7 @@ Dan Farrelly 上来就抛出了一个让人不安的事实：过去两年，"正
 
 ---
 
-## 二、你的 Agent 没失败，是你的 Harness 失败了
+## 你的 Agent 没失败，是你的 Harness 失败了
 
 **Talk:** *Your Agent Didn't Fail. Your Harness Did.*
 **演讲者:** Vinoth Govindarajan（OpenAI, Member of Technical Staff）
@@ -66,7 +66,7 @@ Vinoth 用 OpenClaw 作为公开案例研究，提炼出了一个可复用的生
 
 ---
 
-## 三、长期研究型 Agent 的记忆架构实战
+## 长期研究型 Agent 的记忆架构实战
 
 **Talk:** *Memory Harnesses for Long-Running Research Agents*
 **演讲者:** Stefania Druga（Sakana AI）
@@ -96,7 +96,7 @@ Sakana AI 在实践中总结出的记忆架构模式包括：
 
 ---
 
-## 四、生产事故修复 Agent 的六根支柱
+## 生产事故修复 Agent 的六根支柱
 
 **Talk:** *6 Pillars of an Agentic Harness That Fixes Production Incidents*
 **演讲者:** Varun Krovvidi（Resolve AI）
