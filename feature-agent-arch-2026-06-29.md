@@ -168,23 +168,23 @@ Anant 的观点截然不同：**这三条路径解决的是完全不同的问题
 
 ---
 
-## 视频与参考资料
+## 各 Talk 链接与观看方式
 
-大会正在进行中（6/29-7/2），talk 视频将在会后陆续上传至 AI Engineer YouTube 频道。
+大会正在进行中（6/29-7/2），以下 5 场 talk 的具体日程可以在大会日程页找到。视频录制将在会后陆续上传至 AI Engineer YouTube 频道。
 
-- **大会主站：** <https://www.ai.engineer/worldsfair>
-- **完整日程（566 sessions）：** <https://www.ai.engineer/worldsfair/schedule>
+| # | Talk | 演讲者 | 日程位置 | 演讲者链接 |
+|---|------|--------|---------|-----------|
+| 1 | 架构的保质期只有 6 个月 | Dan Farrelly | Day 3（7/1）12:05pm | [LinkedIn](https://www.linkedin.com/in/djfarrelly) |
+| 2 | Your Agent Didn't Fail. Your Harness Did. | Vinoth Govindarajan | Day 2（6/30）11:10am · Claws & Personal Agents | [LinkedIn](https://www.linkedin.com/in/vinothgovindarajan/) · [Substack](https://theagentstack.substack.com/) |
+| 3 | Memory Harnesses for Long-Running Research Agents | Stefania Druga | Day 3（7/1）11:40am · Memory & Continual Learning | [LinkedIn](https://www.linkedin.com/in/drugastefania/) · [Website](https://stefania11.github.io/) |
+| 4 | 6 Pillars of an Agentic Harness | Varun Krovvidi | Day 2（6/30）2:50pm | — |
+| 5 | Prompt, Memory, Weights | Anant Srivastava | Day 3（7/1）12:05pm · Context Engineering | [LinkedIn](https://www.linkedin.com/in/anantds) |
+
+**观看链接：**
+
+- **大会日程页（所有 session）：** <https://www.ai.engineer/worldsfair/schedule>
 - **Sessions 开放数据（JSON）：** <https://www.ai.engineer/worldsfair/sessions.json>
-- **AI Engineer YouTube：** <https://youtube.com/@aiDotEngineer>
+- **AI Engineer YouTube（视频将在此发布）：** <https://youtube.com/@aiDotEngineer>
+- **大会主站：** <https://www.ai.engineer/worldsfair>
 
-**演讲者信息：**
-
-| Talk | 演讲者 | 关注链接 |
-|------|--------|----------|
-| 架构的保质期只有 6 个月 | Dan Farrelly | [@danfarrelly](https://x.com/danfarrelly) · Inngest CTO |
-| Your Agent Didn't Fail. Your Harness Did. | Vinoth Govindarajan | OpenAI, Member of Technical Staff |
-| Memory Harnesses for Long-Running Research Agents | Stefania Druga | Sakana AI |
-| 6 Pillars of an Agentic Harness | Varun Krovvidi | Resolve AI |
-| Prompt, Memory, Weights | Anant Srivastava | [@anants](https://x.com/anants) |
-
-*本文基于 AI Engineer World's Fair 2026（6月29日-7月2日，旧金山 Moscone West）的公开议程数据整理。视频录制将在大会后由 AI Engineer YouTube 频道发布。*
+> 注：以上 5 场 talk 分别安排在 Day 2（6/30）和 Day 3（7/1），大会期间可通过日程页找到各 session 的详细位置。录制视频将在大会后由 AI Engineer 官方 YouTube 频道发布。
