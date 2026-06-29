@@ -168,4 +168,23 @@ Anant 的观点截然不同：**这三条路径解决的是完全不同的问题
 
 ---
 
-*本文基于 AI Engineer World's Fair 2026（6月29日-7月2日，旧金山 Moscone West）的公开议程信息整理。大会仍在进行中，更多 session 报道将持续更新。*
+## 视频与参考资料
+
+大会正在进行中（6/29-7/2），talk 视频将在会后陆续上传至 AI Engineer YouTube 频道。
+
+- **大会主站：** <https://www.ai.engineer/worldsfair>
+- **完整日程（566 sessions）：** <https://www.ai.engineer/worldsfair/schedule>
+- **Sessions 开放数据（JSON）：** <https://www.ai.engineer/worldsfair/sessions.json>
+- **AI Engineer YouTube：** <https://youtube.com/@aiDotEngineer>
+
+**演讲者信息：**
+
+| Talk | 演讲者 | 关注链接 |
+|------|--------|----------|
+| 架构的保质期只有 6 个月 | Dan Farrelly | [@danfarrelly](https://x.com/danfarrelly) · Inngest CTO |
+| Your Agent Didn't Fail. Your Harness Did. | Vinoth Govindarajan | OpenAI, Member of Technical Staff |
+| Memory Harnesses for Long-Running Research Agents | Stefania Druga | Sakana AI |
+| 6 Pillars of an Agentic Harness | Varun Krovvidi | Resolve AI |
+| Prompt, Memory, Weights | Anant Srivastava | [@anants](https://x.com/anants) |
+
+*本文基于 AI Engineer World's Fair 2026（6月29日-7月2日，旧金山 Moscone West）的公开议程数据整理。视频录制将在大会后由 AI Engineer YouTube 频道发布。*
